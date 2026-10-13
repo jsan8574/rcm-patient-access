@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c263c">
+<meta name="description" content="RCM Masterclass - Front End: a self-paced Patient Access course.">
+<title>RCM - Patient Access</title>
+<link rel="icon" href="data:,">
+<link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css?v=5">
+</head>
+<body>
+<a class="skip" href="#main">Skip to lesson</a>
+<header class="topbar">
+  <button id="menuBtn" class="menu-btn" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="Course content">Contents</button>
+  <div class="titles">
+    <div class="program" id="programName">RCM Masterclass - Front End</div>
+    <div class="course-title"><span id="courseName">RCM - Patient Access</span><span class="path" id="pathName"></span></div>
+  </div>
+  <div class="top-meta">
+    <div class="learner"><small>Learner</small><strong id="topLearner">Not entered</strong></div>
+    <div class="ring" id="ring" role="img" aria-label="0% complete">
+      <svg viewBox="0 0 52 52" aria-hidden="true"><circle class="ring-track" cx="26" cy="26" r="22"/><circle class="ring-fill" id="ringFill" cx="26" cy="26" r="22" stroke-dasharray="138.2" stroke-dashoffset="138.2"/></svg>
+      <div class="ring-label"><span id="ringPct">0%</span><small>complete</small></div>
+    </div>
+  </div>
+</header>
+<div class="top-progress"><div id="topProgress"></div></div>
+<div id="storageWarning" class="storage-warning" hidden role="alert"></div>
+<div class="layout">
+  <aside id="sidebar" aria-label="Course content"></aside>
+  <main id="main" tabindex="-1"></main>
+</div>
+<button id="panelToggle" class="panel-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="Hide course content"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13M15 8.5l-3.5 3.5 3.5 3.5"/></svg></button>
+<nav class="bottombar" id="bottombar" aria-label="Lesson navigation"></nav>
+<div id="nameGate" class="name-gate" role="dialog" aria-modal="true" aria-labelledby="nameGateTitle" hidden></div>
+<div id="live" class="sr-only" aria-live="polite"></div>
+<noscript><p style="padding:24px">This course needs JavaScript to save progress and run activities.</p></noscript>
+<script src="js/course-data.js?v=5"></script>
+<script src="js/activities.js?v=5"></script>
+<script src="js/app.js?v=5"></script>
+</body>
+</html>
