@@ -43,7 +43,7 @@ RCM Masterclass - Front End: a self-paced online workbook for aspiring Patient A
 - Adding a path means adding to `COURSE.paths`. Progress is stored separately per path (`rcmpa:v1:state:<path>`), and a "Change path" link appears automatically.
 - Adding a module or section means adding an object to `COURSE.sections`. No code changes are needed.
 
-**Cache-busting:** every CSS and JS tag in `index.html` ends in `?v=N`. Bump N on **every** edit (it is currently `v=5`). After deploying, open the page and check that the new `?v` loaded before debugging anything.
+**Cache-busting:** every CSS and JS tag in `index.html` ends in `?v=N`. Bump N on **every** edit (it is currently `v=6`). After deploying, open the page and check that the new `?v` loaded before debugging anything.
 
 ## Data capture (what L&D sees)
 

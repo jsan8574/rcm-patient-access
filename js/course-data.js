@@ -41,7 +41,7 @@
     paths: [{ id: 'va', label: 'Patient Access VA' }],
     defaultPath: 'va',
     // Paste the Apps Script web-app URL here (see README). Empty = completions are queued on the learner's device only.
-    dataCapture: { endpoint: '' },
+    dataCapture: { endpoint: 'https://script.google.com/macros/s/AKfycbzxbddom2gERReyc4yidu8VquPnStrmFCFlTET2pu8kZs0bsVk3fRPHNscaN5R4VwTP/exec' },
     vars: {
       payer: 'Alderwood Health Plan',
       payer2: 'Corvane Health',
